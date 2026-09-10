@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+
+client/node_modules/
+server/node_modules/
+
+build/
+client/build/
+server/public/
+
+.vercel/
