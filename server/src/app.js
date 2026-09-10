@@ -19,7 +19,7 @@ app.use(morgan('combined')); // Request logger
 // Routes
 app.use('/api/v1', apiV1Routes);
 
-app.get('/*', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(publicFolder, 'index.html'));
 });
 
