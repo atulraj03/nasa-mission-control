@@ -13,7 +13,7 @@ const app = express();
 // General middleware
 app.use(express.json());
 app.use(express.static(publicFolder));
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors());
 app.use(morgan('combined')); // Request logger
 
 // Routes
