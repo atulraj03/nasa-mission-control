@@ -1,4 +1,4 @@
-let API_URL = 'api/v1';
+let API_URL = 'https://nasa-mission-control-api.onrender.com/api/v1';
 
 // If in watch mode, use the local server.
 if (process.env.REACT_APP_WATCH_MODE === 'true') API_URL = 'http://localhost:8000/api/v1';
